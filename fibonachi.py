@@ -1,5 +1,4 @@
 #ex 2.2.1
-
 d={ i:0 for i in range(1,41)}
 for i in d:
 	if i<=2:
@@ -22,3 +21,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+'''
+#good from stepic
+a, b, n = 0, 1, int(input())
+for i in range(2, n+1):
+    a, b = b, a + b
+print(b)
+'''
