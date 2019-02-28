@@ -1,8 +1,8 @@
-<<<<<<< HEAD
 from timeit import default_timer as timer
 import functools
 n, m = list(map(int, input().split()))
 
+'''
 @functools.lru_cache(maxsize=None)
 def feb(k):
 	a, b = 0, 1
@@ -11,10 +11,7 @@ def feb(k):
 	    a = b
 	    b = a_tmp + b
 	return(b)
-=======
-#from timeit import default_timer as timer
-
-n, m = map(int, input().split())
+'''
 
 '''
 c=0
