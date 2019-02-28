@@ -23,7 +23,6 @@ for i in range(1,n):
     c+=1
     if (T[i]==1) and (T[i-1]==0):
         break
->>>>>>> 479206518162c4dc993326437d7abf872fbadc7e
 
 #t = timer()
 print(T[(n%c)],T)
